@@ -1,0 +1,34 @@
+{
+  "name": "nwmcc_2015",
+  "version": "1.0.0",
+  "description": "Northwestern Mutual Code Challenege 2015",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "start": "node server.js",
+    "build:css": "node-sass --include-path scss src/style/main.scss   dist/css/main.css",
+    "serve": "node server.js",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "events": "^1.1.0",
+    "exports-loader": "^0.6.2",
+    "flux": "^2.1.1",
+    "imports-loader": "^0.6.5",
+    "object-assign": "^4.0.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "webpack": "^1.12.9",
+    "whatwg-fetch": "^0.10.1"
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.2",
+    "react-hot-loader": "^1.3.0",
+    "webpack-dev-server": "^1.14.0"
+  }
+}

@@ -1,0 +1,28 @@
+@media(max-width: 415px){
+	div.sidebar{
+		-webkit-box-ordinal-group: 3;
+		-webkit-order: 2;
+		-ms-flex-order: 2;
+		order: 2;
+		width:100%;
+	}
+	.main {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+}
+
+.sidebar{
+	background-color: $b-side;
+	color: $main-light;
+
+	width:10em;
+	padding:0.5em 0 0.5em 0.5em;
+
+	.list{
+		padding-right:0.5em;
+	}
+}

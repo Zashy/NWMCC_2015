@@ -1,0 +1,32 @@
+.book{
+	background-color:$mid-light;
+
+	width: 200px;
+	height: 100px;
+	margin:0.5em;
+	overflow:hidden;
+
+	float:left;
+
+	border:2px solid $b-secondary;
+
+	a, .author-label, .authors{
+		padding:0.25em;
+	}
+
+	a:link, a:visited{
+		background-color:$pure-white;
+		color:$main-dark;
+
+		display:block;
+		margin-bottom:2px;
+
+		font-weight:bold;
+	}
+	a:hover{
+		text-shadow:1px 1px $shadow-mid-dark;
+	}
+	.author-label{
+		font-weight:bold;
+	}
+}

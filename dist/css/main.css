@@ -1,0 +1,125 @@
+@media (max-width: 415px) {
+  div.sidebar {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 100%; }
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
+.sidebar {
+  background-color: #3e82f7;
+  color: #eeeeee;
+  width: 10em;
+  padding: 0.5em 0 0.5em 0.5em; }
+  .sidebar .list {
+    padding-right: 0.5em; }
+
+header {
+  background-color: #2f63d9;
+  color: #eeeeee;
+  padding: 0.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+
+.book {
+  background-color: #ccddee;
+  width: 200px;
+  height: 100px;
+  margin: 0.5em;
+  overflow: hidden;
+  float: left;
+  border: 1px solid #2f63d9; }
+  .book a, .book .author-label, .book .authors {
+    padding: 0.25em; }
+  .book a:link, .book a:visited {
+    background-color: #ffffff;
+    color: #333333;
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold; }
+  .book a:hover {
+    text-shadow: 1px 1px #999999; }
+  .book .author-label {
+    font-weight: bold; }
+
+.search-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+.search {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5em; }
+  .search .searchBar {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-right: 0.25em; }
+
+.footer {
+  background-color: #2f63d9;
+  color: #eeeeee;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+
+.footer-text {
+  padding: 0.5em; }
+
+html {
+  box-sizing: border-box; }
+
+html, body, #app {
+  height: 100%; }
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+  color: #333333; }
+
+ul {
+  margin: 0; }
+
+*,
+::before,
+::after {
+  box-sizing: inherit; }
+
+.container {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto; }
