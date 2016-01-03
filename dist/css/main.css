@@ -39,7 +39,7 @@ header {
   margin: 0.5em;
   overflow: hidden;
   float: left;
-  border: 1px solid #2f63d9; }
+  border: 2px solid #2f63d9; }
   .book a, .book .author-label, .book .authors {
     padding: 0.25em; }
   .book a:link, .book a:visited {
@@ -92,7 +92,8 @@ html, body, #app {
 body {
   margin: 0;
   background-color: #eeeeee;
-  color: #333333; }
+  color: #333333;
+  font-size: 16px; }
 
 ul {
   margin: 0; }
